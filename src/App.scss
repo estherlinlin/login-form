@@ -1,3 +1,22 @@
+@import "./styles/utils.scss";
+
+:root {
+  --default-font-size: 1.6rem;
+  --max-width: 37.5rem;
+
+  --black: #000;
+  --white: #fff;
+  --grey: #a6a6a6;
+  --light-grey: #f4f4f4;
+  --medium-grey: #dddddd;
+  --dark-grey: #858585;
+
+  --primary-blue:  #30a5e9;
+  --wheat: #f7e0a3;
+  --warn-yellow: #ffd31d;
+  --danger-red: #bd2130;
+}
+
 .App {
   text-align: center;
 }

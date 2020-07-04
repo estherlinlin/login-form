@@ -1,0 +1,49 @@
+//global reset
+@import "./styles/variables.scss";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  //inherit from body, good practice and more fexible when need to change
+}
+
+html {
+  // define 1 rem to 10px which default is 16px in most browsers
+  // for not lock down users setting for font-size in browser
+  font-size: 62.5%; // 10/16
+
+  background-color: var(--light-grey);
+  // when both max-width match will apply below in order
+  @media only screen and (max-width: $sz-largest) {
+    font-size: 56.25%; //9px 9/16
+  }
+  @media only screen and (max-width: $sz-medium) {
+    font-size: 50%; //8px
+  }
+
+  // @media only screen and (max-width: $sz-small) {
+  //   font-size: 30%; 
+  // }
+
+  @media only screen and (max-width: $sz-xlarge) {
+    font-size: 75%; //12px
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
