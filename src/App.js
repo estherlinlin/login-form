@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
 import Login from "./components/Auth/Login/Login";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";

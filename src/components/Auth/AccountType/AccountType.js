@@ -1,7 +1,7 @@
 import React from "react";
 import "./AccountType.scss";
 
-const AccountType = ({ name, img, isSelect, onSelect }) => {
+const AccountType = ({ name, TypeImg, isSelect, onSelect }) => {
   const selectedClass = isSelect ? "selected-type" : null;
 
   return (
@@ -10,8 +10,8 @@ const AccountType = ({ name, img, isSelect, onSelect }) => {
       onClick={() => onSelect(name)}
     >
       <div className="account-img-box">
-        {/* <accountType.img /> */}
-        <img className="account-img" src={img} alt="Logo" />
+        {/* <img className="account-img" src={img} alt="Logo" /> */}
+        <TypeImg/>
       </div>
 
       <div className="account-text">{name}</div>

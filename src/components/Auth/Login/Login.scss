@@ -7,11 +7,11 @@
   background-color: var(--white);
   margin: 4rem auto;
   padding: 2rem;
-  box-shadow: 0 4px 10px 4px rgba(#000, 0.1);
+//   box-shadow: 0 4px 10px 4px rgba(#000, 0.1);
   border-radius: 5px;
   @media only screen and (max-width: $sz-xsmall) {
     height: 100vh;
-    margin: 0 auto;
+    margin: auto 0;
   }
 
   background: url(../../../assets/images/img_town_370x170@3x.svg);
