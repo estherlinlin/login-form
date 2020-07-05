@@ -1,6 +1,5 @@
 .form-container {
-  // width: 100%;
-  // position: relative;
+
 }
 
 .form {
@@ -13,9 +12,22 @@
   }
 }
 
+.forgot-hint{
+  position: absolute;
+  right: 1rem;
+  top:1rem;
+  :before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: -0.45rem;
+    width: 0.15rem;
+    height: 2rem;
+    background: var(--light-grey);
+  }
+}
+
 .form-footer {
-  // position: absolute;
-  // width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,9 +41,7 @@
   &:link,
   &:visited {
     display: inline-block;
-    // font-size: 2.8rem;
     font-weight: 400;
-    // padding: 0.1rem 1rem;
     border-radius: 5px;
     color: var(--primary-blue);
     text-decoration: none;

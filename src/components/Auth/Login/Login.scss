@@ -1,32 +1,28 @@
+@import "../../../styles/variables.scss";
+
 .container {
-    position: relative;
-    max-width: var(--max-width);
-    width: 100%;
-    background-color: var(--white);
-    margin: 4rem auto;
-    padding: 2rem;
-    box-shadow: 0 4px 10px 4px rgba(var(--black), 0.1);
+  position: relative;
+  max-width: var(--max-width);
+  width: 100%;
+  background-color: var(--white);
+  margin: 4rem auto;
+  padding: 2rem;
+  box-shadow: 0 4px 10px 4px rgba(#000, 0.1);
+  border-radius: 5px;
+  @media only screen and (max-width: $sz-small) {
+    height: 100vh;
+    margin: 0;
   }
-  
-  .greetings{
-      color: var(--dark-grey);
-      line-height: 1.8rem;
-      margin: 3rem;
-  }
-  // .form {
-  //     background:rgba($form-bg,.9);
-  //     padding: 40px;
-  //     max-width:600px;
-  //     margin:40px auto;
-  //     border-radius:$br;
-  //     box-shadow:0 4px 10px 4px rgba($form-bg,.3);
-  //   }
-  
-  // /* Container */
-  // .container {
-  //     position: relative;
-  //     max-width: $max-width;
-  //     width: 100%;
-  //     margin: 0 auto 100px;
-  // }
-  
+
+  background: url(../../../assets/images/img_town_370x170@3x.svg);
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.greetings {
+  color: var(--dark-grey);
+  line-height: 1.8rem;
+  margin: 1rem;
+}

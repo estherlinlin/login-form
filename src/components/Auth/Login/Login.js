@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.scss";
+import { ReactComponent as BgImage } from "../../../assets/images/img_town_370x170@3x.svg";
 
 import AccountTypeList from "../AccountTypeList/AccountTypeList";
 import Form from "../Form/Form";
@@ -22,7 +23,8 @@ const Login = () => {
         </span>
       </div>
       <Form />
-      
+      {/* <BgImage className="bg-img"/> */}
+      {/* <div className="bg-img"></div> */}
     </div>
   );
 };

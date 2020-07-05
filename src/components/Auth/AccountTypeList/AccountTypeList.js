@@ -11,7 +11,7 @@ const AccountTypeList = ({ selectedType, typeSelectHandler }) => {
         <AccountType
           key={item.name}
           {...item}
-          isSelect={item.name === selectedType.name}
+          isSelect={item.name === selectedType}
           onSelect={typeSelectHandler}
         />
       ))}

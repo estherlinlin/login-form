@@ -13,62 +13,6 @@
   margin-bottom: 3rem !important;
 }
 
-// .heading-primary {
-//   color: $white;
-//   text-transform: uppercase;
-//   /* fix animation shaky : 
-//         determines if the back part of the element 
-//         when we transform it is visible or hidden */
-//   backface-visibility: hidden;
-//   margin-bottom: 6rem;
-
-//   &--main {
-//     display: block; //span is default by inline
-//     font-family: "Lobster", cursive;
-//     font-size: 7rem;
-//     font-weight: 400;
-//     letter-spacing: 2.5rem;
-//     animation: moveInLeft 1s ease-in;
-//   }
-
-//   &--sub {
-//     display: block;
-//     font-size: 2rem;
-//     font-weight: 400;
-//     letter-spacing: 0.5rem;
-//     animation: moveInRight 1s ease-in;
-//   }
-// }
-
-// .heading-secondary {
-//   font-size: 2.8rem;
-//   text-transform: uppercase;
-//   display: inline-block;
-//   //text style
-//   background-image: linear-gradient(
-//     to right,
-//     $color-primary,
-//     $color-primary-medium
-//   );
-//   -webkit-background-clip: text;
-//   color: transparent;
-//   letter-spacing: 2px;
-//   transition: all 0.2s;
-
-//   @media only screen and (max-width: $sz-medium) {
-//     font-size: 2.5rem;
-//   }
-
-//   @media only screen and (max-width: $sz-small) {
-//     font-size: 2rem;
-//   }
-
-//   &:hover {
-//     transform: skewX(10deg) scale(1.05);
-//     text-shadow: 0.5rem 0.4rem 1rem rgba($black, 0.1);
-//   }
-// }
-
 .heading-tertiary {
   font-size: 1.3rem;
   font-weight: 400;
