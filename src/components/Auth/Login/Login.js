@@ -23,8 +23,9 @@ const Login = () => {
         </span>
       </div>
       <Form />
-      {/* <BgImage className="bg-img"/> */}
-      {/* <div className="bg-img"></div> */}
+      <div className="bg-img" >
+        <BgImage />
+      </div>
     </div>
   );
 };
