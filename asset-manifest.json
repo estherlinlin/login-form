@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/login-form/static/css/main.e1680f36.chunk.css",
+    "main.js": "/login-form/static/js/main.c33e8bb9.chunk.js",
+    "main.js.map": "/login-form/static/js/main.c33e8bb9.chunk.js.map",
+    "runtime-main.js": "/login-form/static/js/runtime-main.1278f55b.js",
+    "runtime-main.js.map": "/login-form/static/js/runtime-main.1278f55b.js.map",
+    "static/js/2.c78e7dc0.chunk.js": "/login-form/static/js/2.c78e7dc0.chunk.js",
+    "static/js/2.c78e7dc0.chunk.js.map": "/login-form/static/js/2.c78e7dc0.chunk.js.map",
+    "index.html": "/login-form/index.html",
+    "precache-manifest.c67967f28ae8d1feaf3614b9cb9f2ce4.js": "/login-form/precache-manifest.c67967f28ae8d1feaf3614b9cb9f2ce4.js",
+    "service-worker.js": "/login-form/service-worker.js",
+    "static/css/main.e1680f36.chunk.css.map": "/login-form/static/css/main.e1680f36.chunk.css.map",
+    "static/js/2.c78e7dc0.chunk.js.LICENSE.txt": "/login-form/static/js/2.c78e7dc0.chunk.js.LICENSE.txt",
+    "static/media/img_doctor_90@3x.d57aad92.svg": "/login-form/static/media/img_doctor_90@3x.d57aad92.svg",
+    "static/media/img_patient_90@3x.3cbdeb85.svg": "/login-form/static/media/img_patient_90@3x.3cbdeb85.svg",
+    "static/media/img_town_370x170@3x.a01c3092.svg": "/login-form/static/media/img_town_370x170@3x.a01c3092.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1278f55b.js",
+    "static/js/2.c78e7dc0.chunk.js",
+    "static/css/main.e1680f36.chunk.css",
+    "static/js/main.c33e8bb9.chunk.js"
+  ]
+}
